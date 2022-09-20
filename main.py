@@ -22,3 +22,8 @@ def relacion(a,b):
         return 1
     else:
         return -1
+
+#Ejercicio4
+
+def intermedio(a,b):
+    return b - ((b - a)/2)
