@@ -38,3 +38,12 @@ def  recortar(numero, limInf, limSup):
     else:
         return numero
 
+#Ejercicio6
+
+pares = []
+impares = []
+def separar(numero):
+    if numero % 2 == 0:
+        pares.append(numero)
+    else:
+        impares.append(numero)
