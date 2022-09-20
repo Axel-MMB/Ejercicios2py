@@ -27,3 +27,14 @@ def relacion(a,b):
 
 def intermedio(a,b):
     return b - ((b - a)/2)
+
+#Ejercicio5
+
+def  recortar(numero, limInf, limSup):
+    if numero < limInf:
+        return limInf
+    elif numero > limSup:
+        return limInf
+    else:
+        return numero
+
