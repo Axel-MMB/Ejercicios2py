@@ -8,7 +8,17 @@ def area_rectangulo(altura, base):
     return altura * base
 
 
-#Ejercicios2
+#Ejercicio2
 
 def area_circulo(radio):
     return math.pi * (radio * radio)
+
+#Ejercicio3
+
+def relacion(a,b):
+    if a == b:
+        return 0
+    if a > b:
+        return 1
+    else:
+        return -1
